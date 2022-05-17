@@ -17,8 +17,9 @@ export class SubjectsComponent implements OnInit {
   //readonly ROOT_URL = 'https://api.coindesk.com/v1/bpi/currentprice.json';
 
     constructor(private http: HttpClient) {}
-    //posts = this.http.get(this.ROOT_URL + '/posts');
-    subjects = this.http.get(this.ROOT_URL);
+  //this works
+  //posts = this.http.get(this.ROOT_URL + '/posts');
+  subjects = this.http.get(this.ROOT_URL);
 
   
   
