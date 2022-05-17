@@ -1,4 +1,4 @@
 {{ROOT_URL}}
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, sequi animi? Assumenda repudiandae voluptatibus aperiam
-quaerat blanditiis, incidunt maiores optio numquam cum quia tempora officia delectus? Facilis unde neque perspiciatis.</p>
+<div *ngFor="let subject of subjects | keyvalue">
+    {{subject.name}}:{{subject.value}}
+</div>
